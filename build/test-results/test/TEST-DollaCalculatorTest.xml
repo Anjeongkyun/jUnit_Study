@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DollaCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-10T16:17:07" hostname="DESKTOP-1M2MP4N" time="0.023">
+<testsuite name="DollaCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-10T16:26:31" hostname="DESKTOP-1M2MP4N" time="0.462">
   <properties/>
-  <testcase name="dollarTest()" classname="DollaCalculatorTest" time="0.023"/>
-  <system-out><![CDATA[6600
+  <testcase name="mockTest()" classname="DollaCalculatorTest" time="0.462"/>
+  <system-out><![CDATA[60000
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
