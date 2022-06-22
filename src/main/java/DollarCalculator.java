@@ -12,10 +12,6 @@ public class DollarCalculator implements ICalculator{
         this.price = marketApi.connect();
     }
 
-    public int connect() {
-        return 1100;
-    }
-
     @Override
     public int sum(int x, int y) {
         x *= price;
