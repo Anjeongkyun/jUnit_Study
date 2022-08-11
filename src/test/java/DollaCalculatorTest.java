@@ -15,7 +15,7 @@ public class DollaCalculatorTest {
 
     @BeforeEach
     public void init() {
-        Mockito.lenient().when(marketApi.connect()).thenReturn(3000);
+        Mockito.lenient().when(marketApi.connect()).thenReturn(2000);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class DollaCalculatorTest {
         Calculator calculator = new Calculator(dollarCalculator);
 
         System.out.println(calculator.sum(10,10));
-        Assertions.assertEquals(60000, calculator.sum(10,10));
+        Assertions.assertEquals(40000, calculator.sum(10,10));
         Assertions.assertEquals(0, calculator.minus(10,10));
     }
 }
